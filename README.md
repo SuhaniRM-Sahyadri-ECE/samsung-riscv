@@ -100,3 +100,97 @@ O1 debug using Spike
 Compare Outputs Once both versions (-O1 and -Ofast) have been compiled and run, compare the outputs from both compilers. You should check:
 
 Whether the outputs match between the GCC and RISC-V compiler. Any differences in the assembly code or execution behavior due to optimization.
+
+## ## 15 Unique RISC-V Instructions and their 32- Bit encodings: 
+ ##RISC-V instructions and their Encodings:
+
+1) add a0, a0, a1
+
+   Type: R-type
+
+   Binary Encoding: 0000000 00101 00100 000 00100 0110011
+
+
+2) li a0, 0x0
+
+   Type:Pseudo -> I-type
+
+   Binary Encoding:0000000 00000 00000 000 00100 0010011
+
+3) lui a5, 0xfffff
+
+   Type:U-type
+
+   Binary Encoding:1111111 111111 11111 00000 10101 0110111
+
+4) jal ra, 0x44
+
+   Type:J-type
+
+   Binary Encoding:0000000 00100 00100 00000 00001 1101111
+
+5) add sp, sp, 16
+
+   Type:I-type
+
+   Binary Encoding:0000000 10000 00010 000 00010 0010011
+
+6) sub a2, a0, a2
+
+   Type:R-type
+
+   Binary Encoding:0100000 00010 00100 000 00101 0110011
+
+7) lbu a5, 0x1944
+
+   Type:I-type
+
+   Binary Encoding:0000000 10000 01000 100 00101 0000011
+
+8) bnez a5, <label>
+
+   Type:B-type
+
+   Binary Encoding:0000000 10001 01000 001 01000 1100011
+
+9) ret
+
+   Type:I-type (JALR x0)`
+
+   Binary Encoding:0000000 00000 00100 000 00000 1100111
+
+10) auipc a0, 272
+
+    Type:U-type
+
+    Binary Encoding:0000000 01111 11111 000 00000 0010111
+
+11) jalr ra, <main>
+
+    Type:I-type
+
+    Binary Encoding:0001 0000 0000 00001 000 00001 1100111
+
+12) auipc gp, 0x13
+
+    Type:U-type
+
+    Binary Encoding:0000000 00001 00110 000 00110 0010111
+
+13) addi gp, gp, 1780
+
+    Type:I-type
+
+    Binary Encoding:0000000 01101 00110 000 00110 0010011
+
+14) jal ra, <atexit>
+
+    Type:J-type
+
+    Binary Encoding:0000000 00010 01100 00000 00001 1101111
+
+15) lw a0, 0(sp)
+
+   Type:I-type
+
+   Binary Encoding:0000000 00000 00010 010 00100 0000011
