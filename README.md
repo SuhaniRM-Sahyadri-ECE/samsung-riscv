@@ -191,6 +191,6 @@ Whether the outputs match between the GCC and RISC-V compiler. Any differences i
 
 15) lw a0, 0(sp)
 
-   Type:I-type
+    Type:I-type
 
-   Binary Encoding:0000000 00000 00010 010 00100 0000011
+    Binary Encoding:0000000 00000 00010 010 00100 0000011
