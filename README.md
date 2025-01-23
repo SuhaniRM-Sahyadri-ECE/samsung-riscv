@@ -195,6 +195,25 @@ Whether the outputs match between the GCC and RISC-V compiler. Any differences i
 
     Binary Encoding:0000000 00000 00010 010 00100 0000011
 
+</details>
+<details>
+<summary>Task03</summary>
+  
+  ### 1. **Create a Directory**:
+  ### 2. **Create the verilog files using touch command**
+  ### 3. **locate the files created and paste the code from the <a href="https://github.com/vinayrayapati/rv32i/blob/main/?> repo </a>**
+  Get the Verilog netlist from <a href="https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v">RISC-V Core Verilog Netlist.</a>
+  Get the testbench from <a href="https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i_tb.v">Testbench for RISC-V Core.
+  ### 4. **Compile the Files**
+  ### 5. **run the files**
+  ### 6. **Open the Waveform File in GTKWave**
+  ### 7. **Add Signals to GTKWave:**
+  ### 7. **Add Signals to GTKWave:**
+  
+</details>
+
+    
+
 
   
   
