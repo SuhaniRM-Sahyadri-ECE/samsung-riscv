@@ -239,7 +239,7 @@ RISC-V Board: The microcontroller (MCU) acts as the controller, sending digital 
 </ul>
 <br>
 ## Circuit Diagram
-![](Task5)
+![]()
 
 
 ## Connection Pins
