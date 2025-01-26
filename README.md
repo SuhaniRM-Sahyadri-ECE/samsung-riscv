@@ -236,8 +236,8 @@ RISC-V Board: The microcontroller (MCU) acts as the controller, sending digital 
   <ul>
   <li>A RISC-V development board (e.g., SiFive, GOWIN FPGA, or similar)</li>
   <li> A 7-segment display (common anode or cathode)</li>
-  <li>Common Cathode: Requires the common pin to be grounded (LOW)</li>
-  </li>Common Anode: Requires the common pin to be connected to VCC (HIGH)</li>
+  <li>  Common Cathode: Requires the common pin to be grounded (LOW)  </li>
+  <li> Common Anode: Requires the common pin to be connected to VCC (HIGH) </li>
 </ul>
 <br>
 
