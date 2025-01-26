@@ -239,7 +239,8 @@ RISC-V Board: The microcontroller (MCU) acts as the controller, sending digital 
 </ul>
 <br>
 ## Circuit Diagram
-![]() 
+![]()
+
 
 ## Connection Pins
 | RISC-V Board Pin | 7-Segment Display Pin | Description |
