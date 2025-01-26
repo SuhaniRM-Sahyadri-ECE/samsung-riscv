@@ -197,7 +197,7 @@ Whether the outputs match between the GCC and RISC-V compiler. Any differences i
 
 </details>
 <details>
-<summary>Task03</summary>
+<summary>Task04</summary>
   
   ### 1. **Create a Directory**:
   ### 2. **Create the verilog files using touch command**
@@ -211,6 +211,51 @@ Whether the outputs match between the GCC and RISC-V compiler. Any differences i
   ### 7. **Add Signals to GTKWave:**
   
 </details>
+
+<details>
+  <summary>Task05: Project Overview</summary>
+    
+## RISC-V Board with 7-Segment Display Interface
+
+
+This circuit demonstrates where a RISC-V development board is connected to a 7-segment LED display. The purpose is to showcase basic digital output control, suitable for learning or prototyping purposes.
+
+## Features
+
+- **RISC-V Development Board:** Interfaces with a 7-segment display using GPIO pins.
+- **7-Segment Display:** Displays numbers or patterns based on signals sent by the board.
+- **Beginner-Friendly:** A simple and clear wiring diagram to understand RISC-V GPIO control.
+  
+### Working
+
+RISC-V Board: The microcontroller (MCU) acts as the controller, sending digital HIGH or LOW signals via its GPIO pins.
+
+7-Segment Display: The display has 7 segments (labeled A to G) that light up to form numbers or patterns.
+
+### Components Required
+  <ul>
+  <li>A RISC-V development board (e.g., SiFive, GOWIN FPGA, or similar)</li>
+  <li> A 7-segment display (common anode or cathode)</li>
+</ul>
+<br>
+## Circuit Diagram
+![]() 
+
+## Connection Pins
+| RISC-V Board Pin | 7-Segment Display Pin | Description |
+|-------------------|------------------------|-------------|
+| GPIO1 (PXX)       | Segment A             | Controls segment A |
+| GPIO2 (PXX)       | Segment B             | Controls segment B |
+| GPIO3 (PXX)       | Segment C             | Controls segment C |
+| GPIO4 (PXX)       | Segment D             | Controls segment D |
+| GPIO5 (PXX)       | Segment E             | Controls segment E |
+| GPIO6 (PXX)       | Segment F             | Controls segment F |
+| GPIO7 (PXX)       | Segment G             | Controls segment G |
+| GPIO8 (PXX)       | Common Cathode/Anode | Power to the display |
+
+
+
+
 
     
 
