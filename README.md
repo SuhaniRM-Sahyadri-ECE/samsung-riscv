@@ -238,7 +238,9 @@ RISC-V Board: The microcontroller (MCU) acts as the controller, sending digital 
   <li> A 7-segment display (common anode or cathode)</li>
 </ul>
 <br>
+
 ## Circuit Diagram
+
 ![](https://github.com/SuhaniRM-Sahyadri-ECE/samsung-riscv/blob/main/Task5/Seven%20segment%20display.jpg?raw=true)
 
 
