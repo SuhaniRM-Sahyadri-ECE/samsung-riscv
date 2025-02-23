@@ -261,6 +261,7 @@ Positive (VCC) → Digital Pin (e.g., PC7)
 Negative (GND) → GND
 
 ## Source Code
+
 #include <stdio.h>
 #include <ch32v00x_gpio.h>
 #include <ch32v00x_rcc.h>
@@ -364,11 +365,6 @@ upload_protocol = wch-link
 monitor_port = COM5  ; Update to your COM port
 monitor_speed = 9600
 build_flags = -I$PROJECT_CORE_DIR/packages/framework-noneos-sdk/include
-
-
-
-
-
     
 
 
