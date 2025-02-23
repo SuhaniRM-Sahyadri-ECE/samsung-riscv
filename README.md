@@ -264,12 +264,19 @@ If the distance is below a threshold, the buzzer is activated.
 
 ## Connection Pins
 HC-SR04 Ultrasonic Sensor to Microcontroller:
+
 VCC → 5V
+
 Trig → Digital Pin (e.g., PD3)
+
 Echo → Digital Pin (e.g., PD2)
+
 GND → GND
+
 Buzzer to Microcontroller:
+
 Positive (VCC) → Digital Pin (e.g., PC7)
+
 Negative (GND) → GND
 
 
