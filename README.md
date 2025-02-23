@@ -263,25 +263,37 @@ Negative (GND) → GND
 ## Source Code
 
 #include <stdio.h>
+
 #include <ch32v00x_gpio.h>
+
 #include <ch32v00x_rcc.h>
+
 #include <ch32v00x_tim.h>
+
 #include <ch32v00x_usart.h>
+
 #include <stdint.h>
 
 #define TRIG_PIN GPIO_Pin_0   // Trigger pin for ultrasonic sensor
+
 #define ECHO_PIN GPIO_Pin_1   // Echo pin for ultrasonic sensor
+
 #define BUZZER_PIN GPIO_Pin_2 // Buzzer pin
 
 void delayMicroseconds(uint32_t us) {
+
     while (us--) {
+    
         for (int i = 0; i < 8; i++) __asm__("nop");
     }
 }
 
 void setup() {
+
     // Enable Clocks
+    
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+    
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
