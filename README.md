@@ -251,16 +251,14 @@ If the distance is below a threshold, the buzzer is activated.
 
 
 ## Connection Pins
-| RISC-V Board Pin | 7-Segment Display Pin | Description |
-|-------------------|------------------------|-------------|
-| GPIO1 (PXX)       | Segment A             | Controls segment A |
-| GPIO2 (PXX)       | Segment B             | Controls segment B |
-| GPIO3 (PXX)       | Segment C             | Controls segment C |
-| GPIO4 (PXX)       | Segment D             | Controls segment D |
-| GPIO5 (PXX)       | Segment E             | Controls segment E |
-| GPIO6 (PXX)       | Segment F             | Controls segment F |
-| GPIO7 (PXX)       | Segment G             | Controls segment G |
-| GPIO8 (PXX)       | Common Cathode/Anode | Power to the display |
+HC-SR04 Ultrasonic Sensor to Microcontroller:
+VCC → 5V
+Trig → Digital Pin (e.g., PD3)
+Echo → Digital Pin (e.g., PD2)
+GND → GND
+Buzzer to Microcontroller:
+Positive (VCC) → Digital Pin (e.g., PC7)
+Negative (GND) → GND
 
 
 
