@@ -246,7 +246,7 @@ If the distance is below a threshold, the buzzer is activated.
 
 ## Circuit Diagram
 
-![](https://github.com/SuhaniRM-Sahyadri-ECE/samsung-riscv/blob/main/Task5/Seven%20segment%20display.jpg?raw=true)
+![](https://github.com/SuhaniRM-Sahyadri-ECE/samsung-riscv/blob/main/Task5/Distance%20measurer%20using%20riscv%20board.jpg)
 
 
 
