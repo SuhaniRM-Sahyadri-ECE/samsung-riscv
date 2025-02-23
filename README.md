@@ -215,22 +215,29 @@ Whether the outputs match between the GCC and RISC-V compiler. Any differences i
 <details>
   <summary>Task05: Project Overview</summary>
     
-## RISC-V Board with 7-Segment Display Interface
+## Ultrasonic Distance Measurement with Alarm
 
 
-This circuit demonstrates where a RISC-V development board is connected to a 7-segment LED display. The purpose is to showcase basic digital output control, suitable for learning or prototyping purposes.
+This circuit is designed to measure distance using an ultrasonic sensor (HC-SR04) and trigger a buzzer alarm when an object is detected within a certain range.
+
 
 ## Features
 
-- **RISC-V Development Board:** Interfaces with a 7-segment display using GPIO pins.
-- **7-Segment Display:** Displays numbers or patterns based on signals sent by the board.
-- **Beginner-Friendly:** A simple and clear wiring diagram to understand RISC-V GPIO control.
+- **Ultrasonic Sensor:** Uses an HC-SR04 ultrasonic sensor to measure the distance to an object.
+- **Riscv Board:** Used to control ultrasonic sensor.
+- **Buzzer Alarm:** A buzzer alarm sounds when the detected object is too close.
   
 ### Working
 
-RISC-V Board: The microcontroller (MCU) acts as the controller, sending digital HIGH or LOW signals via its GPIO pins.
+The HC-SR04 sensor sends an ultrasonic pulse through the Trig pin.
 
-7-Segment Display: The display has 7 segments (labeled A to G) that light up to form numbers or patterns.
+The pulse reflects off an object and returns to the sensor.
+
+The Echo pin measures the time taken for the pulse to return.
+
+The microcontroller calculates the distance based on the pulse duration.
+
+If the distance is below a threshold, the buzzer is activated.
 
 ### Components Required
   <ul>
