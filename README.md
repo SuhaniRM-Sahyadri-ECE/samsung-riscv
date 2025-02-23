@@ -101,6 +101,11 @@ Compare Outputs Once both versions (-O1 and -Ofast) have been compiled and run, 
 
 Whether the outputs match between the GCC and RISC-V compiler. Any differences in the assembly code or execution behavior due to optimization.
 
+</details>
+
+<details>
+  <summary> Task 03 </summary>
+    
 ## ## 15 Unique RISC-V Instructions and their 32- Bit encodings: 
  ##RISC-V instructions and their Encodings:
 
@@ -194,6 +199,10 @@ Whether the outputs match between the GCC and RISC-V compiler. Any differences i
     Type:I-type
 
     Binary Encoding:0000000 00000 00010 010 00100 0000011
+    </details>
+<details>
+  <summary>Task03</summary>
+  
 
 </details>
 <details>
