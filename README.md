@@ -19,8 +19,9 @@ Email ID: suhanirm38@gmail.com / suhani.ec23@sahyadri.edu.in
 ![GitHub](https://github.com/SuhaniRM-Sahyadri-ECE)
 
 
+<details>
+  <summary>Task01 - Development of C program</summary>
 
-## Task01-Development of C Program
 
 ## Step01: Fire up the terminal
 vsduser@vsduser-VirtualBox:~$
@@ -69,6 +70,11 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 ![Ofast calculation](https://github.com/SuhaniRM-Sahyadri-ECE/samsung-riscv/blob/main/Task1/task1(Ofast).png?raw=true)
 
 Then, perform the same search for main and instruction count calculations to compare with the non-optimized version.
+
+</details>
+<details>
+  <summary>Task02 - Simulation with Spike</summary>
+  <hr>
 ## Task02 - Simulation with Spike
 *** SPIKE is a simulator for the RISC-V architecture, allowing you to test and debug RISC-V programs without needing real hardware. It simulates a RISC-V processor and cache, and can run programs or even a Linux kernel.
 PK (Proxy Kernel) is a lightweight environment that helps run statically-linked RISC-V programs, acting like a simple operating system.
