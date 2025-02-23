@@ -230,21 +230,17 @@ This circuit is designed to measure distance using an ultrasonic sensor (HC-SR04
 ### Working
 
 The HC-SR04 sensor sends an ultrasonic pulse through the Trig pin.
-
 The pulse reflects off an object and returns to the sensor.
-
 The Echo pin measures the time taken for the pulse to return.
-
 The microcontroller calculates the distance based on the pulse duration.
-
 If the distance is below a threshold, the buzzer is activated.
 
 ### Components Required
   <ul>
   <li>A RISC-V development board (e.g., SiFive, GOWIN FPGA, or similar)</li>
-  <li> A 7-segment display (common anode or cathode)</li>
-  <li>  Common Cathode: Requires the common pin to be grounded (LOW)  </li>
-  <li> Common Anode: Requires the common pin to be connected to VCC (HIGH) </li>
+  <li> Ultrasonic Sensor </li>
+  <li>  Buzzer </li>
+  <li> Connecting Wires </li>
 </ul>
 <br>
 
