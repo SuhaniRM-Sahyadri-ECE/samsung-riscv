@@ -14,7 +14,6 @@ Email ID: suhanirm38@gmail.com / suhani.ec23@sahyadri.edu.in
 
 
 ## 🔗 Links:
-
 ![GitHub](https://github.com/SuhaniRM-Sahyadri-ECE)
 
 
