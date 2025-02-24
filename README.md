@@ -14,9 +14,6 @@ Github ID: ![GitHub](https://github.com/SuhaniRM-Sahyadri-ECE)
 
 
 
-## 🔗 Links:
-![GitHub](https://github.com/SuhaniRM-Sahyadri-ECE)
-
 
 <details>
   <summary>Task01 - Development of C program</summary>
