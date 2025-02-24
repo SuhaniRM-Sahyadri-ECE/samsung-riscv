@@ -237,6 +237,7 @@ This circuit is designed to measure distance using an ultrasonic sensor (HC-SR04
 - **Ultrasonic Sensor:** Uses an HC-SR04 ultrasonic sensor to measure the distance to an object.
 - **Riscv Board:** Used to control ultrasonic sensor.
 - **Buzzer Alarm:** A buzzer alarm sounds when the detected object is too close.
+- **Led lights:** Led lights are used to indicate different distances.
   
 ### Working
 
@@ -245,13 +246,15 @@ The pulse reflects off an object and returns to the sensor.
 The Echo pin measures the time taken for the pulse to return.
 The microcontroller calculates the distance based on the pulse duration.
 If the distance is below a threshold, the buzzer is activated.
+If the distance is within 10cm then red led turns ON, if the distance exceeds more than 10cm then green led turns ON
 
 ### Components Required
   <ul>
   <li>A RISC-V development board (e.g., SiFive, GOWIN FPGA, or similar)</li>
   <li> Ultrasonic Sensor </li>
-  <li>  Buzzer </li>
+  <li> Buzzer </li>
   <li> Connecting Wires </li>
+  <li> Led </li>
 </ul>
 <br>
 
@@ -266,15 +269,15 @@ HC-SR04 Ultrasonic Sensor to Microcontroller:
 
 VCC → 5V
 
-Trig → Digital Pin (e.g., PD3)
+Trig → Digital Pin (e.g., PC0)
 
-Echo → Digital Pin (e.g., PD2)
+Echo → Digital Pin (e.g., PC1)
 
 GND → GND
 
 Buzzer to Microcontroller:
 
-Positive (VCC) → Digital Pin (e.g., PC7)
+Positive (VCC) → Digital Pin (e.g., PC4)
 
 Negative (GND) → GND
 
